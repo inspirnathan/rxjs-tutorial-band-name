@@ -1,2 +1,5 @@
 node_modules
 dist
+
+# VS Code
+.DS_Store

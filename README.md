@@ -2,6 +2,8 @@
 
 ## A simple app to demonstrate the power of RxJS!
 
+![Screenshot](https://github.com/inspirnathan/rxjs-tutorial-band-name/raw/master/assets/screenshot.png "Screenshot")
+
 Instructions to run the project:
 1. Clone this repo
 2. `npm install`
