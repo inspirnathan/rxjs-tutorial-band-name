@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2>🎸 Band Name</h2>
+      <form>
+        <div class="field-container">
+          <label for="favorite-color"></label>
+          <input id="favorite-color" type="text" name="favorite-color" placeholder="What is your favorite color?"
+            required>
+        </div>
+        <div class="field-container">
+          <label for="favorite-animal"></label>
+          <input id="favorite-animal" type="text" name="favorite-animal" placeholder="What is your favorite animal?"
+            required>
+        </div>
+      </form>
+      <div class="band-name-container">
+        <p>Your new band name is:</p>
+        <h2 id="band-name"></h2>
+      </div>
+    </div>
+  </div>
+
+  <script src="../dist/main.js"></script>
+</body>
+
+</html>

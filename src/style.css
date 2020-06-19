@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(5, 170, 235);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.form-container {
+  border: 4px solid springgreen;
+  border-radius: 2px;
+  background-color: white;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.form-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 7rem;
+}
+
+.field-container {
+  width: 100%;
+}
+
+input[id^="favorite-"] {
+  width: 80%;
+  border: 2px solid rgb(5, 170, 235);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.band-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#band-name {
+  padding: 0 1rem;
+  margin: 0 0 0.5rem;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  color: white;
+  font: 1.75rem Georgia, serif;
+}
